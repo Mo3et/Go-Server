@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-
 	"os"
 	"time"
+
 	"go.uber.org/zap"
 )
 
@@ -16,14 +15,15 @@ import (
 // }
 
 func main() {
-logFile, err := os.Create("/" + time.Now().Format("2006-01-02") + ".log")
+	logFile, err := os.Create("/" + time.Now().Format("2006-01-02") + ".log")
 
 	if err != nil {
 		mt.Println(err)
-	
 
- 
-func SugarLogss(){
-	logger,_:=zap.NewProduction()
+	}
+}
+
+func SugarLogss() {
+	logger, _ := zap.NewProduction()
 
 }

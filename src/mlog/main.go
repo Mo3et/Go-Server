@@ -11,5 +11,5 @@ func main() {
 	fmt.Scanf("%s", &str)
 	acs := str
 	fmt.Println(str + acs)
-	fmt.S
+	fmt.Scanln()
 }
