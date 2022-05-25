@@ -8,6 +8,8 @@ logger.go
 
 [日志库实现 参考](https://segmentfault.com/a/1190000041848336)
 
+
+[全面分析Uber的高性能日志库Zap](https://mp.weixin.qq.com/s/ghCINPYXo7Xsm_aIXhlbmA)
 # References
 
 [全面解析Zap](https://jishuin.proginn.com/p/763bfbd5e9c4)

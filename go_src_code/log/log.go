@@ -268,12 +268,14 @@ func (l *Logger) Fatalf(format string, v ...any) {
 }
 
 // Fatalln is equivalent to l.Println() followed by a call to os.Exit(1).
+// FATALLN等同于L.Println（），然后致电OS.EXIT（1）。
 func (l *Logger) Fatalln(v ...any) {
 	l.Output(2, fmt.Sprintln(v...))
 	os.Exit(1)
 }
 
 // Panic is equivalent to l.Print() followed by a call to panic().
+//恐慌等同于l.print（），然后呼叫panic（）。
 func (l *Logger) Panic(v ...any) {
 	s := fmt.Sprint(v...)
 	l.Output(2, s)
