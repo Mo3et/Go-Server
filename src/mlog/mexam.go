@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"time"
 
@@ -18,7 +19,7 @@ func main() {
 	logFile, err := os.Create("/" + time.Now().Format("2006-01-02") + ".log")
 
 	if err != nil {
-		mt.Println(err)
+		fmt.Println(err)
 
 	}
 }
