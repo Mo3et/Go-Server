@@ -12,8 +12,8 @@
 
 ```
 struct {
-    mu (atomic Write protect fields) 
-    prefix
+    mu         //(atomic Write protect fields) 
+    prefix     //前缀标识器
     flag
     out
     buf
